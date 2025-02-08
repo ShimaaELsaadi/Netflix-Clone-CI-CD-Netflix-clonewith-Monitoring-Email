@@ -3,7 +3,7 @@ pipeline{
         tools{
         jdk 'jdk'
         nodejs 'nodejs'
-        docker 'docker'
+        dockerTool 'docker'
     }
     stages{
         stage('Cleanup') {
